@@ -934,6 +934,7 @@ button img {
   background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -1004,11 +1005,16 @@ button img {
   gap: 20px;
 }
 
-.menu__item {
+.menu__link {
   position: relative;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.menu__item::before {
+.menu__link::before {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -1020,16 +1026,8 @@ button img {
   transition: opacity 0.3s ease-in-out;
 }
 
-.menu__item:hover::before {
+.menu__link:hover::before {
   opacity: 1;
-}
-
-.menu__link {
-  color: #fff;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 
 .phone {
@@ -1651,6 +1649,7 @@ button img {
   background-image: url("../images/arrow-slider.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 
 .swiper-prev:hover {
@@ -1837,6 +1836,7 @@ button img {
 
 .choice {
   position: relative;
+  cursor: pointer;
 }
 
 .choice__title {
@@ -1926,6 +1926,7 @@ button img {
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(300%);
+  transition: all 0.3s ease-in-out;
 }
 
 .map:hover {
